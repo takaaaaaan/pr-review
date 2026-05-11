@@ -1,4 +1,4 @@
-﻿# Review styles — details
+# Review styles — details
 
 How to execute the style chosen in step 3.
 

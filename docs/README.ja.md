@@ -1,4 +1,4 @@
-﻿# pr-review
+# pr-review
 
 Claude Code skill — ローカル Claude Code から `gh` CLI 経由で GitHub Pull Request をレビューするための汎用ワークフロー。
 

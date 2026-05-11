@@ -1,4 +1,4 @@
-﻿# Submodule-style repos
+# Submodule-style repos
 
 Parent repo and child repo have different review targets, so first
 identify **which one the PR is for**.

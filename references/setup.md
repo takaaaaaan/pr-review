@@ -1,4 +1,4 @@
-﻿# gh CLI setup
+# gh CLI setup
 
 When `gh --version` or `gh auth status` fails, follow the appropriate
 case below.

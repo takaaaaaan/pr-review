@@ -1,4 +1,4 @@
-﻿# PR selection — detailed procedure
+# PR selection — detailed procedure
 
 When the user did not specify a PR number, narrow the target here.
 

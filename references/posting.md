@@ -1,4 +1,4 @@
-﻿# Posting comments to a PR
+# Posting comments to a PR
 
 Concrete commands and gotchas when writing review results back to a PR.
 

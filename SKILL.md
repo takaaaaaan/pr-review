@@ -1,4 +1,4 @@
-﻿---
+---
 name: pr-review
 description: |
   General-purpose workflow for reviewing GitHub Pull Requests from local

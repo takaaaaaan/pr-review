@@ -1,27 +1,16 @@
 ---
 name: pr-review
 description: |
-  General-purpose workflow for reviewing GitHub Pull Requests from local
-  Claude Code via the `gh` CLI. Lets the user pick the target PR from a
-  `gh pr list` result, then pick the review style (general / security /
-  multi-angle / second-opinion / simplification / submodule SHA verification),
-  fetches and analyzes the diff, and returns a structured result. Optionally
-  posts comments back to the PR. Does not call the Anthropic API directly,
-  so it incurs no extra cost (everything stays within the Claude Code
-  subscription).
+  GitHub PR review workflow via the `gh` CLI from local Claude Code. User picks
+  a PR from `gh pr list`, then a review style (general / security / multi-angle
+  / second-opinion / simplification / submodule SHA verification). Fetches and
+  analyzes the diff, returns structured results, and optionally posts comments
+  back to the PR. No Anthropic API cost — stays within Claude Code subscription.
 
-  Always use this skill when any of the following applies:
-  - The user asks to review an existing PR: "review this PR",
-    "pull request review", "look at PR #N", etc.
-  - The user asks to list / inspect recent PRs: "show open PRs",
-    "what's open", PR selection tasks.
-  - The user asks to write findings back to GitHub:
-    "post the review as a PR comment", "write the findings to GitHub",
-    anything using `gh pr comment` / `gh api` to push results back.
-  - In a submodule-style repo, the user wants to validate a parent-repo
-    PR that bumps a submodule SHA.
-  - The repo / PR number is ambiguous and you first need to list
-    candidates and let the user choose.
+  Use when: reviewing an existing PR ("review this PR", "look at PR #N"),
+  listing/inspecting recent PRs, posting findings back to GitHub via
+  `gh pr comment`/`gh api`, validating a parent-repo PR that bumps a submodule
+  SHA, or when the repo/PR is ambiguous and candidates must be listed first.
 ---
 
 # PR Review Skill

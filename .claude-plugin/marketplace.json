@@ -1,0 +1,21 @@
+{
+  "name": "pr-review",
+  "owner": {
+    "name": "takaaaaaan",
+    "url": "https://github.com/takaaaaaan"
+  },
+  "metadata": {
+    "description": "GitHub PR review workflow for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "pr-review",
+      "source": ".",
+      "description": "Review GitHub PRs via the gh CLI — pick a PR, pick a review style (general / security / multi-angle / second-opinion / simplification / submodule SHA), optionally post findings back as a PR comment.",
+      "version": "1.0.0",
+      "category": "review",
+      "keywords": ["pr", "review", "github", "gh", "code-review"]
+    }
+  ]
+}

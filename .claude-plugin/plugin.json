@@ -1,0 +1,11 @@
+{
+  "name": "pr-review",
+  "version": "1.0.0",
+  "description": "Review GitHub PRs via the gh CLI — pick a PR, pick a review style (general / security / multi-angle / second-opinion / simplification / submodule SHA), optionally post findings back as a PR comment.",
+  "author": {
+    "name": "takaaaaaan",
+    "url": "https://github.com/takaaaaaan"
+  },
+  "license": "MIT",
+  "keywords": ["pr", "review", "github", "gh", "code-review"]
+}
